@@ -25,7 +25,7 @@
     "types",
     "generator"
   ],
-  "author": "",
+  "author": "mo49",
   "license": "MIT",
   "dependencies": {
     "commander": "^11.1.0"
