@@ -40,12 +40,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/openapi-ts-converter.git"
+    "url": "git+https://github.com/mo49/openapi-ts-converter.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/openapi-ts-converter/issues"
+    "url": "https://github.com/mo49/openapi-ts-converter/issues"
   },
-  "homepage": "https://github.com/yourusername/openapi-ts-converter#readme",
+  "homepage": "https://github.com/mo49/openapi-ts-converter#readme",
   "directories": {
     "example": "examples"
   }
