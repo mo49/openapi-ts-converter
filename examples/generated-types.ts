@@ -64,3 +64,30 @@ export interface UserList {
   /** Number of items per page */
   limit: number;
 }
+
+/** GET /users
+ * Get all users
+ * Query Parameters
+ */
+export interface GetUsersQueryParams {
+  /** Page number for pagination */
+  page?: number;
+  /** Number of items per page */
+  limit?: number;
+  /** Filter users by role */
+  role?: UserRole;
+}
+
+/** GET /users/{id}
+ * Get a user by ID
+ * Path Parameters
+ */
+export interface GetUsersByIdPathParams {
+  id: string;
+}
+
+/** POST /users
+ * Create a new user
+ * Request Body
+ */
+export type PostUsersRequestBody = UserInput;

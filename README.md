@@ -6,6 +6,7 @@ A command-line tool to convert OpenAPI schema definitions into TypeScript type d
 
 - Converts OpenAPI schema objects to TypeScript interfaces and types
 - Handles complex schema structures including enums, objects, and nested types
+- Generates request parameter types (query parameters, path parameters, and request bodies)
 - Preserves schema descriptions as JSDoc comments
 - Identifies and documents which API endpoints use each type
 - Supports custom type name prefixes
@@ -69,6 +70,9 @@ The converter handles various OpenAPI schema constructs:
 - **oneOf/anyOf** → TypeScript union types (|)
 - **Arrays** → TypeScript array types
 - **Primitive types** → Corresponding TypeScript types
+- **Query Parameters** → TypeScript interfaces with endpoint documentation
+- **Path Parameters** → TypeScript interfaces with endpoint documentation
+- **Request Bodies** → TypeScript types with endpoint documentation
 
 ## License
 
